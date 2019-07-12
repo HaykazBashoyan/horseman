@@ -1,0 +1,117 @@
+body {
+	width: 100%;
+	height: 100vh;
+	background: url('../images/bodyfon.jpg'); 
+	background-position: top center;
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+}
+header{
+	width: 100%;
+	height: 100vh;
+}
+.bojack {
+	position: absolute;
+    width: 300px;
+    height: 483px;
+    margin: 0px 50% auto;
+    top: 3px;
+    left: -150px;
+    background: url(../images/bojack.png) no-repeat center top;
+    z-index: 2;
+}
+.about {
+	width: 78%;
+	margin: auto;
+}
+.intro {
+	width: 80%;
+	margin: auto;
+}
+.info {
+	width: 100%;
+}
+.main {
+	width: 100%;
+	padding: 20px;
+	margin-top: -211px;
+}
+.sezon {
+	width: 80%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 20px;
+	padding:20px;
+	background: #f5ecec;
+} 
+.card {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.card-item {
+	transition: transform 0.2s;
+}
+.line {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.seria {
+	width: 20%;
+	padding: 3px;
+	border: solid 1px #9f5a31;
+}
+em {
+	display: none;
+}
+hr{
+	width: 95%;
+	height: 4px;
+	background-color: #9f5a31;
+	margin: auto;
+
+}
+h1 {
+	color: #9f5a31;
+	text-align: center;
+}
+
+.gallery {
+	width: 78%;
+	background: blue;
+	margin: auto;
+}
+.string {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+footer {
+	width: 100%;
+	background: black;
+}
+.contacts {
+	width: 100%;
+	min-height: 70vh;
+}
+.rights {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+    display: none;
+}
+.up {
+	width: 60px;
+    position: fixed;
+    right: 40px;
+    top: 80%;
+
+}
